@@ -21,23 +21,24 @@
 
     <!-- AngularJS api -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>    
-  </head>  
-   <body ng-app="AppMarketApp">
-      <div class="header">
-        <div class="container">
-          <h1>App Market</h1>
-        </div>
-      </div>
+  </head>
 
-      <div class="main" ng-controller="MainController">
-        <div class="container">      
-          
-          <div class="card" ng-repeat="app in apps">
-            <app-info info="app"></app-info>
-            <install-app></install-app>   
-          </div>
+  <body ng-app="AppMarketApp">
+    <div class="header">
+      <div class="container">
+        <h1>App Market</h1>
+      </div>
+    </div>
+
+    <div class="main" ng-controller="MainController">
+      <div class="container">      
+        
+        <div class="card" ng-repeat="app in apps">
+          <app-info info="app"></app-info>
+          <install-app></install-app>   
         </div>
       </div>
+    </div>
 
 
     <!-- Modules -->
