@@ -1,7 +1,7 @@
 # angular-basic-directives
 
 A basic AngularJS app using [Express 4](http://expressjs.com/).
-It demonstrates the use of directives to create new HTML element that you can customise.
+It demonstrates the use of directives to create new HTML element that you can customise. It is based upon the AngularJS lesson found at [codecademy](http://www.codecademy.com/).
 
 The app is ready to deploy to [Heroku](http://www.heroku.com/). The Procfile, .env and server.js files have already been created, therefore only the following is required to get it deployed to [Heroku](http://www.heroku.com/):
 
