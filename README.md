@@ -1,7 +1,5 @@
 # angular-basic-directives
 
-# angular-basic-array
-
 A basic AngularJS app using [Express 4](http://expressjs.com/).
 It demonstrates the use of directives to create new HTML element that you can customise.
 
