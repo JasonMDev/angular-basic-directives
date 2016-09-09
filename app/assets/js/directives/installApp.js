@@ -2,7 +2,7 @@ app.directive('installApp', function() {
   return { 
     restrict: 'E', 
     scope: {}, 
-    templateUrl: 'js/directives/installApp.html',
+    templateUrl: 'assets/js/directives/installApp.html',
     link: function(scope, element, attrs) {
       scope.buttonText = "Install";
       scope.installed = false;

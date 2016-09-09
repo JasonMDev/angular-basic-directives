@@ -2,6 +2,9 @@
   "name": "angular-basic-directives",
   "version": "1.0.0",
   "description": "A basic AngularJS app. It demonstrates the use of directives to create new HTML element that you can customise.",
+  "engines": {
+    "node": "4.2.6"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,6 +20,11 @@
     "directives"
   ],
   "author": "Jason Mans",
-  "license": "MIT",  
-  "homepage": "https://github.com/JasonMDev/angular-basic-directives#readme"
+  "license": "MIT",
+  "homepage": "https://github.com/JasonMDev/angular-basic-directives#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "express": "^4.14.0",
+    "npm": "^3.10.7"
+  }
 }

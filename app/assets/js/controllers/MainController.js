@@ -1,57 +1,57 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.move = {
     icon: 'assets/img/webpicheroheader1.jpg',
-    title: 'MOVE',
-    developer: 'MOVE, Inc.',
-    price: 0.99
+    title: 'Blue',
+    developer: 'A Dev',
+    price: 1.79
   };
 
   $scope.shutterbugg = {
     icon: 'assets/img/webpicheroheader2.jpg',
-    title: 'Shutterbugg',
-    developer: 'Chico Dusty',
-    price: 2.99
+    title: 'Black',
+    developer: 'Some One',
+    price: 5.89
   };
 
   $scope.gameboard = {
     icon: 'assets/img/webpicheroheader3.jpg',
-    title: 'Gameboard',
-    developer: 'Armando P.',
-    price: 1.99
+    title: 'Modern',
+    developer: 'Mystery Sam',
+    price: 2.39
   };
 
   $scope.forecast = {
     icon: 'assets/img/webpicheroheader4.jpg',
-    title: 'Forecast',
-    developer: 'Forecast',
-    price: 1.99
+    title: 'Orange',
+    developer: 'Forget M. Not',
+    price: 3.96
   };
   
   $scope.apps = 
     [
      {
        icon: 'assets/img/webpicheroheader1.jpg',
-       title: 'MOVE',
-       developer: 'MOVE, Inc.',
-       price: 0.99
+       title: 'Black',
+       developer: 'A Dev',
+       price: 1.79
      },
      {
        icon: 'assets/img/webpicheroheader2.jpg', 
-       title: 'Shutterbugg', 
-       developer: 'Chico Dusty', 
-       price: 2.99
+       title: 'Blue', 
+       developer: 'Some One', 
+       price: 5.89
      },
     {
        icon: 'assets/img/webpicheroheader3.jpg',
-       title: 'Gameboard',
-       developer: 'Armando P.',
-       price: 1.99
+       title: 'Modern',
+       developer: 'Mystery Sam',
+       price: 2.39
      },
      {
        icon: 'assets/img/webpicheroheader4.jpg',
-       title: 'Forecast',
-      developer: 'Forecast',
-       price: 1.99
+       title: 'Orange',
+      developer: 'Forget M. Not',
+       price: 3.96
      }
     ];
 }]);
